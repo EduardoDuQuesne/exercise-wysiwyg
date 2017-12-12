@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+}
+
+footer {
+    padding-bottom: 1em;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.people-card {
+    width: 27%;
+    text-align: center;
+    margin-top: 2em;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.people-card img {
+    width: 100%;
+}
+.people-card p {
+    text-align: justify;
+    padding: 1.5em;
+}
+.dotted-border {
+    border: 1px dotted red;
+}
+
+.input-field {
+    text-align: center;
+}
+
+.people-card:nth-child(1n) {
+    background-color: lightblue;
+}
+.people-card:nth-child(2n) {
+    background-color: lightyellow;
+}
